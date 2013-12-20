@@ -5,8 +5,8 @@
     	//wp_deregister_script('jquery');
 
         //register scripts for our theme  
-        wp_register_script('foundation-mod', get_template_directory_uri() . '/js/modernizr.js', array( 'jquery'), false );  
-        wp_register_script('foundation-main', get_template_directory_uri() . '/js/foundation/foundation.js', array( 'foundation-mod' ), true );  
+        wp_register_script('foundation-mod', get_template_directory_uri() . '/js/modernizr.js', array( ), false );  
+        wp_register_script('foundation-main', get_template_directory_uri() . '/js/foundation/foundation.js', array( 'jquery' ), true );  
         //wp_register_script('foundation-app', get_template_directory_uri() . '/js/app.js', true );  
         //wp_register_script('jquery','http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js', true );
         wp_register_script('foundation_init_js', get_template_directory_uri() . '/js/foundation_init.js', array('foundation-main'), true);
