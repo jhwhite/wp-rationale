@@ -1,0 +1,12 @@
+<?php 
+
+function wprationale_scripts_with_jquery()
+{
+	// Register the script like this for a theme:
+	wp_register_script( 'custom-script', get_template_directory_uri() . '/js/foundation.min.js', array( 'jquery' ) );
+	// For either a plugin or a theme, you can then enqueue the script:
+	wp_enqueue_script( 'custom-script' );
+}
+add_action( 'wp_enqueue_scripts', 'wprationale_scripts_with_jquery' );
+
+?>

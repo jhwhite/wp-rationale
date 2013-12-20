@@ -1,0 +1,23 @@
+/*
+Theme Name: WP-Rationale
+Theme URI: http://teamtreehouse.com/wordpress-bootstrap-theme-tutorial
+Description: A starter theme using Foundation 5
+Author: J White
+Author URI: http://www.jody-white.com;
+Version: 1.0
+Tags: responsive, white, foundation
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+This simple theme was built using a mix of the Foundation theme "blog" and "marketing".
+*/
+
+
+@import url('css/normalize.css');
+@import url('css/foundation.min.css'); 
+
+
+h1.title {
+	margin-top: 50px;
+}
