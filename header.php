@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><?php wp_title(); ?> </title>
+    <title><?php bloginfo('name'); ?><?php wp_title(); ?> </title>
 
     <meta name="description" content="Documentation and reference library for ZURB Foundation. JavaScript, CSS, components, grid and more." />
     
