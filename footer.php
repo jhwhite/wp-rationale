@@ -2,14 +2,14 @@
 
   <footer class="row">
     <div class="large-12 columns">
-      <hr />
+      <!--<hr />-->
       <div class="row">
         <div class="large-6 columns">
           <p>&copy; <?php echo date("Y"); ?></p>
         </div>
         <div class="large-6 columns">
           <ul class="inline-list">
-            <?php wp_list_pages('title_li='); ?>
+            <?php wp_list_pages(array('title_li' => '', 'exclude' => 4)); ?>
           </ul>
         </div>
       </div>

@@ -10,7 +10,7 @@ Tags: responsive, white, foundation
 License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 License URI: http://creativecommons.org/licenses/by-sa/3.0/
 
-This simple theme was built using a mix of the Foundation theme "blog" and "marketing".
+This simple theme was built using a mix of the Foundation template "blog" and "marketing".
 */
 
 
@@ -20,4 +20,10 @@ This simple theme was built using a mix of the Foundation theme "blog" and "mark
 
 h1.title {
 	margin-top: 50px;
+}
+
+footer {
+	padding-top: 1em;
+	background-color: #333333;
+	color: white;
 }
