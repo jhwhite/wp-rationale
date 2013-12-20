@@ -18,7 +18,6 @@
 
   </head>
   <body>
-    
 <!-- Nav Bar -->
 <div class="fixed">
   <nav class="top-bar" data-topbar> 
