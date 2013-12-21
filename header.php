@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><?php bloginfo('name'); ?><?php wp_title(); ?> </title>
 
-    <meta name="description" content="Documentation and reference library for ZURB Foundation. JavaScript, CSS, components, grid and more." />
+    <meta name="description" content="WP-Rationale, a WordPress theme based on Foundation 5" />
     
-    <meta name="author" content="ZURB, inc. ZURB network also includes zurb.com" />
+    <meta name="author" content="J White" />
     <meta name="copyright" content="ZURB, inc. Copyright (c) 2013" />
 
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url');?>" />
